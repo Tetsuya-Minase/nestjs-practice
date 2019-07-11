@@ -1,9 +1,9 @@
 import {Controller, Get, Inject} from '@nestjs/common';
-import {RssParseService} from '../../application/usecase/rss-parse.service';
-import {RssRepository} from '../../application/repository/rss-repository';
-import {FeedResponse} from '../../domain/model/feed-response';
+import {RssParseService} from '../../../application/usecase/rss-parse.service';
+import {RssRepository} from '../../../application/repository/rss-repository';
+import {FeedResponse} from '../../../domain/model/feed-response';
 
-@Controller()
+@Controller('/rss')
 export class RssController {
     constructor(
         private readonly rssParseService: RssParseService,

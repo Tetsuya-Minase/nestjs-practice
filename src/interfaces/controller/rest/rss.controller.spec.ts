@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { RssController } from './rss.controller';
-import { RssParseService } from '../../application/usecase/rss-parse.service';
+import { RssParseService } from '../../../application/usecase/rss-parse.service';
 
 describe('RssController', () => {
   let appController: RssController;

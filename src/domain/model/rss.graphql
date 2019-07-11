@@ -1,0 +1,9 @@
+type FeedData {
+    title: String!
+    description: String!
+    link: String!
+}
+
+type Query {
+    getFeedData: [FeedData]
+}
