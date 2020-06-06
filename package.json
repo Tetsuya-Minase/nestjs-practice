@@ -34,7 +34,7 @@
     "@types/node": "^10.12.18",
     "@types/supertest": "^2.0.7",
     "@types/xml2js": "^0.4.4",
-    "apollo-server-express": "^2.6.8",
+    "apollo-server-express": "^2.14.2",
     "graphql": "^14.4.2",
     "graphql-tools": "^4.0.5",
     "jest": "^24.8.0",
